@@ -5,6 +5,8 @@
         <Novice></Novice>
         <Borrow></Borrow>
         <Money></Money>
+        <Product></Product>
+        <Life></Life>
     </div>
 </template>
 
@@ -13,7 +15,9 @@ import Heador from "../public/header.vue";
 import Slider from "./hslider.vue";
 import Novice from "./novice.vue";
 import Borrow from "./borrow.vue";
-import Money from "./Money.vue"
+import Money from "./Money.vue";
+import Product from "./product.vue";
+import Life from "./life.vue";
 export default {
   components: {
     Heador,
@@ -21,6 +25,8 @@ export default {
     Novice,
     Borrow,
     Money,
+    Product,
+    Life,
   }
 }
 </script>
