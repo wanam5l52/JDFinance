@@ -7,6 +7,8 @@
         <Money></Money>
         <Product></Product>
         <Life></Life>
+        <Footor></Footor>
+        <Navbar></Navbar>
     </div>
 </template>
 
@@ -18,6 +20,8 @@ import Borrow from "./borrow.vue";
 import Money from "./Money.vue";
 import Product from "./product.vue";
 import Life from "./life.vue";
+import Footor from "../public/footer.vue";
+import Navbar from "../public/navbar.vue";
 export default {
   components: {
     Heador,
@@ -27,6 +31,8 @@ export default {
     Money,
     Product,
     Life,
+    Footor,
+    Navbar,
   }
 }
 </script>

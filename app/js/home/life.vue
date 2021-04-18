@@ -33,7 +33,9 @@ export default {
         Panel,
     },
     data() {
-        
+        return {
+
+        }   
     }
 }
 </script>
